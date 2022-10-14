@@ -2,7 +2,7 @@ substitutions:
   name: jk-bms
   device_description: "Monitor and control a JK-BMS via bluetooth"
   external_components_source: github://syssi/esphome-jk-bms@main
-  mac_address: C8:47:8C:E1:E2:E1
+  mac_address: C8:47:8C:E2:82:7F
   # Defaults to "JK02". Please use "JK04" if you have some old JK-BMS version (f.e. JK-B2A16S hw 3.0, sw. 3.3.0)
   protocol_version: JK02
 
