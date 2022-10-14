@@ -222,3 +222,11 @@ jobs:
           esphome -s external_components_source components compile esp32-example-faker.yaml
       - run: |
           esphome -s external_components_source components compile esp32-ble-example-faker.yaml
+      - name: create artifact
+          uses: actions/upload-artifact@v3
+          with:
+            name: firmware
+            path: |
+              /home/runner/work/esphome-jk-bms/esphome-jk-bms/.esphome/build/jk-bms/.pioenvs/jk-bms/firmware-factory.bin
+              secrets.yaml
+              /home/runner/work/esphome-jk-bms/esphome-jk-bms/.esphome/build/jk-bms/.pioenvs/jk-bms/firmware.bin          
