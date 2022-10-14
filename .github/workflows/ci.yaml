@@ -229,4 +229,4 @@ jobs:
           path: |
             /home/runner/work/esphome-jk-bms/esphome-jk-bms/.esphome/build/jk-bms/.pioenvs/jk-bms/firmware-factory.bin
             secrets.yaml
-            /home/runner/work/esphome-jk-bms/esphome-jk-bms/.esphome/build/jk-bms/.pioenvs/jk-bms/firmware.bin          
+            /home/runner/work/esphome-jk-bms/esphome-jk-bms/.esphome/build/jk-bms/.pioenvs/jk-bms/firmware.bin
